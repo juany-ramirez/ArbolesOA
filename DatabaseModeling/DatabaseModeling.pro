@@ -13,8 +13,15 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        database.cpp
+        database.cpp \
+    node_avl.cpp \
+    openfiledialog.cpp
 
-HEADERS  += database.h
+HEADERS  += database.h \
+    node_avl.h \
+    openfiledialog.h
 
 FORMS    += database.ui
+
+RESOURCES += \
+    pics.qrc

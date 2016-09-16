@@ -15,6 +15,9 @@ public:
     explicit Database(QWidget *parent = 0);
     ~Database();
 
+private slots:
+    void on_pushButton_8_clicked();
+
 private:
     Ui::Database *ui;
 };
